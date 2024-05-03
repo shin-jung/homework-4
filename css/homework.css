@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.sheet {}
+
+
+.header {
+    background: #e7eeea;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.header .menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu li {
+    width: 100px;
+    text-align: center;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+}
+
+.menu li a {
+    font-weight: bold;
+    color: #37523d;
+    text-decoration: none;
+    padding: 10px;
+    /* border: 1px solid black; */
+
+}
+
+.menu li a:hover {
+    color: black;
+}
+
+.content {
+    margin: 0 auto;
+    height: 750px;
+    text-align: left;
+    width: 600px;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.content p {
+    padding-bottom: 20px;
+}
+
+.content img {
+    padding-bottom: 20px;
+}
+
+.footer {
+    background: #37523d;
+}
+
+.footer .footer-menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    /* border: 1px solid black; */
+
+}
